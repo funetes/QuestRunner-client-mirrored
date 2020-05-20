@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+<<<<<<< HEAD
 import { Provider } from 'react-redux';
 import { configureStore } from '@reduxjs/toolkit';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -34,4 +35,14 @@ ReactDOM.render(
     </Provider>
   </Router>,
   document.getElementById('root'),
+=======
+import App from './App';
+
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+>>>>>>> 67165b50ca36ce34f625ac66ab1f003efb27b147
 );
