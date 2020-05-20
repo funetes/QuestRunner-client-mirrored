@@ -16,7 +16,7 @@
 ![Alt text](readmeImg/Quest_Runner.jpg)
 
 ### Flow
-![Alt text](readmeImg/Frame_1.png)
+![Alt text](readmeImg/Frame_1-min.png)
 
 ### Demonstration
 
