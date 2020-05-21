@@ -20,25 +20,39 @@
 
 ### Demonstration
 
-Sign Up & Sign In
-![Alt text](readmeImg/signupsignin.gif)
+##### Sign Up & Sign In
+<p align='center'>
+  <img src='readmeImg/signupAndLogin.gif' />
+</p> 
 
-Quest Register
-![Alt text](readmeImg/quest.gif)
+##### Quest Register
+<p align='center'>
+  <img src='readmeImg/qeustRegister.gif' />
+</p> 
 
-Achievement
-![Alt text](readmeImg/achievement.gif)
+##### Achievement
+<p align='center'>
+  <img src='readmeImg/achievement.gif' />
+</p> 
 
-Rank
-![Alt text](readmeImg/rank.gif)
+##### Rank
+<p align='center'>
+  <img src='readmeImg/rank.gif' />
+</p> 
 
-Store
-![Alt text](readmeImg/store.gif)
+##### Store
+<p align='center'>
+  <img src='readmeImg/store.gif' />
+</p> 
 
-Userinfo
-![Alt text](readmeImg/Userinfo.gif)
+##### Userinfo
+<p align='center'>
+  <img src='readmeImg/userInfo.gif' />
+</p> 
 
-Darkmode
-![Alt text](readmeImg/darkmode.gif)
+##### Darkmode
+<p align='center'>
+  <img src='readmeImg/darkmode.gif' />
+</p> 
 
 바로가기 : [QuestRunner](https://go.aws/2LF8cnA)
