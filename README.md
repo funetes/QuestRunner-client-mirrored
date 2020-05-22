@@ -47,7 +47,7 @@
 
 ##### Userinfo
 <p align='center'>
-  <img src='readmeImg/userInfo.gif' />
+  <img src='readmeImg/userInfo1.gif' />
 </p> 
 
 ##### Darkmode
