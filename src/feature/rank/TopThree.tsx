@@ -17,14 +17,13 @@ import RunnerA from '../../img/runnerA.gif';
 // const { accessKeyId, secretAccessKey, bucketName } = process.env;
 // accessKeyId, secretAccessKey, bucketName 값
 
-const accessKeyId = 'AKIAJETOR3EJQUYUCD6A';
-const secretAccessKey = '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';
-const bucketName = 'qrunner-avatar';
+
+const {ACCESSKEY_ID, SECRET_ACCESS_KEY, BUCKET_NAME} = process.env
 
 
 const s3 = new AWS.S3({
-  accessKeyId,
-  secretAccessKey,
+  ACCESSKEY_ID,
+  SECRET_ACCESS_KEY,
   useAccelerateEndpoint: false,
 });
 
@@ -117,7 +116,7 @@ const TopThree: React.FC<threetype> = (props) => {
   const getRankTop = () => {
     if (props.profilePic) {
       const params: any = {
-        Bucket: bucketName,
+        Bucket: BUCKET_NAME,
         Key: props._id,
       };
       s3.getObject(params, (err: AWS.AWSError, data: any) => {

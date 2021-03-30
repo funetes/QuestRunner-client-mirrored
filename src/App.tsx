@@ -1,5 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
 import { useSelector, useDispatch } from 'react-redux';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { RootState } from './feature';
@@ -40,14 +39,6 @@ const App: React.FC = () => {
         }}
       />
     </Switch>
-=======
-
-
-function App() {
-  return (
-    <div className="App">
-    </div>
->>>>>>> 67165b50ca36ce34f625ac66ab1f003efb27b147
   );
 }
 

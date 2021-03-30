@@ -33,13 +33,11 @@ dotenv.config();
 // const { accessKeyId, secretAccessKey, bucketName } = process.env;
 // accessKeyId, secretAccessKey, bucketName 값
 
-const accessKeyId = 'AKIAJETOR3EJQUYUCD6A';
-const secretAccessKey = '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';
-const bucketName = 'qrunner-avatar';
+const {ACCESSKEY_ID, SECRET_ACCESS_KEY, BUCKET_NAME} = process.env
 
 const s3 = new AWS.S3({
-  accessKeyId,
-  secretAccessKey,
+  ACCESSKEY_ID,
+  SECRET_ACCESS_KEY,
   useAccelerateEndpoint: false,
 });
 function Alert(props: AlertProps) {
@@ -108,7 +106,7 @@ export default function MediaCard(props: any) {
 
   const getRankTop = async () => {
     const params: any = {
-      Bucket: bucketName,
+      Bucket: BUCKET_NAME,
       Key: uid,
     };
     s3.getObject(params, (err: AWS.AWSError, data: any) => {
